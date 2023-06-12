@@ -7,15 +7,13 @@ tags: [OCI, OCI_Kafka_Streaming, SIEM, Audit, LogRhythm, OpenCollector, Kafkabea
 ---
 
 
-# OCI Integration with SIEM through Kafka Streaming Services - Part 1
-
 ## Creating Custom Open Collector Pipelines For Kafkabeat.
 
 By default LR OpenCollecor does not have pipelines to process kafkabeat logs.
 Run below command to view the list of available pipelines in OC. We noticed by default OC does not have pipelines to process kafkabeat logs
 
 ```bash
-# ./lrctl oc  -  - pipe status
+./lrctl oc  -  - pipe status
 ```
 
 ![Img1](/assets/img/posts/2023-06-12/1.png){: width="700"}
@@ -47,7 +45,7 @@ Run below command to view the list of available pipelines in OC. We noticed by d
     
 * To Understand the content of zip file go through [Logrhythm Official document](https://docs.logrhythm.com/docs/OCbeats/logrhythm-open-collector/create-custom-open-collector-pipelines).
 
-  ocikafkaStream.zip
+  [ocikafkaStream.zip](/assets/img/posts/2023-06-12/ociKafkaStream.zip)
     
 * Run below command to Package and import the pipeline.
 
@@ -74,7 +72,7 @@ Run below command to view the list of available pipelines in OC. We noticed by d
     ```bash
     ./lrctl metrics restart
     ```
-    ```
+    ```bash
     ./lrctl oc restart
     ```
 
@@ -82,7 +80,7 @@ Run below command to view the list of available pipelines in OC. We noticed by d
 
 * Validate the status os all pipeline 
 
-    ```
+    ```bash
     ./lrctl oc  -  - pipe status 
     ```
 
