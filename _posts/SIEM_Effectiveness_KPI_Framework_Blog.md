@@ -197,6 +197,5 @@ This four-pillar framework isn't perfect, and I'm still refining it with every e
 
 *If you want to try this in your own environment, here's the Excel template I use — swap the dummy data with your actuals and you've got a management-ready KPI dashboard.*
 
-[Download the SIEM KPI Template (.xlsx)](/assets/SIEM_Effectiveness_KPI_Dashboard.xlsx){: .btn .btn-primary }
-
+[Download the SIEM KPI Template (.xlsx)](/assets/SIEM_Effectiveness_KPI_Dashboard.xlsx)
 ---
