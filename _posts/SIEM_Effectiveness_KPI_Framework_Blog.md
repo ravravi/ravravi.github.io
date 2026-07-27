@@ -1,5 +1,4 @@
 ---
----
 title: "How Effective Is Your SIEM, Really? A Four-Pillar Scoring Framework to Find Out"
 date: 2026-07-27 10:00:00 +0400
 categories: [Blog, SIEM]
