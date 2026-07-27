@@ -3,6 +3,9 @@ title: "How Effective Is Your SIEM, Really? A Four-Pillar Scoring Framework to F
 date: 2026-07-27 10:00:00 +0400
 categories: [Blog, SIEM]
 tags: [SIEM, LogRhythm, SOC, MITRE_ATT&CK, KPI, detection_engineering, purple_team, audit_policy]
+image:
+  path: /assets/img/posts/2026-07-27-SIEM-KPI/SIEM-KPI.png
+  alt: SIEM Effectiveness KPI Dashboard
 description: "A practical scoring model that measures SIEM effectiveness across four pillars — log source coverage, audit quality, detection coverage, and detection confidence — with real numbers, APT benchmarking, and a management-ready Excel template."
 ---
 
