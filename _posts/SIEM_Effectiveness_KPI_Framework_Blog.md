@@ -1,3 +1,12 @@
+---
+---
+title: "How Effective Is Your SIEM, Really? A Four-Pillar Scoring Framework to Find Out"
+date: 2026-07-27 10:00:00 +0400
+categories: [Blog, SIEM]
+tags: [SIEM, LogRhythm, SOC, MITRE_ATT&CK, KPI, detection_engineering, purple_team, audit_policy]
+description: "A practical scoring model that measures SIEM effectiveness across four pillars — log source coverage, audit quality, detection coverage, and detection confidence — with real numbers, APT benchmarking, and a management-ready Excel template."
+---
+
 # I Built a KPI Framework to Actually Measure SIEM Effectiveness — Here's How It Works
 
 I've been building, tuning, and troubleshooting SIEM platforms since 2012 — started with ArcSight, went deep into LogRhythm, and more recently Sentinel and Defender XDR. Across all these platforms and multiple SOC environments, one question keeps coming up in every management review meeting:
@@ -185,6 +194,10 @@ After 14+ years in this space, I've come to believe that the biggest gap in most
 
 This four-pillar framework isn't perfect, and I'm still refining it with every engagement. But it's changed the way I approach SIEM maturity assessments and — more importantly — it's changed the conversations I have with leadership. When you can put a number on "how confident are we that our LogRhythm deployment would detect APT29," you're operating at a completely different level than "we have lots of rules and our MPS looks healthy."
 
-If you try this in your environment, I'd love to hear how it goes. Always happy to exchange notes with fellow SIEM engineers and SOC practitioners.
+---
+
+*If you want to try this in your own environment, here's the Excel template I use — swap the dummy data with your actuals and you've got a management-ready KPI dashboard.*
+
+[Download the SIEM KPI Template (.xlsx)](/assets/SIEM_Effectiveness_KPI_Dashboard.xlsx){: .btn .btn-primary }
 
 ---
